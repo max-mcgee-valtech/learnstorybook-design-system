@@ -84,7 +84,6 @@
     "prettier": "^2.7.1"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "learnstorybook-design-system-template@0.1.0",
   "description": "Learn Storybook design system):Storybook design systems tutorial",
   "main": "dist/index.js",
   "repository": "https://github.com/max-mcgee-valtech/learnstorybook-design-system.git",
