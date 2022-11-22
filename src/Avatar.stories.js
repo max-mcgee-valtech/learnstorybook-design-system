@@ -17,6 +17,10 @@ export default {
       options: ["tiny", "small", "medium", "large"],
     },
   },
+  parameters: {
+    componentSubtitle:
+      "Displays an image that represents a user or organization!",
+  },
 };
 
 export const Standard = (args) => <Avatar {...args} />;
@@ -89,4 +93,15 @@ Controls.args = {
   size: "tiny",
   username: "Dominic Nguyen",
   src: "https://avatars2.githubusercontent.com/u/263385",
+};
+
+/*
+ * More on component Storybook parameters at:
+ * https://storybook.js.org/docs/react/writing-stories/parameters#story-parameters
+ */
+Sizes.parameters = {
+  docs: {
+    // The story now contains a description
+    storyDescription: "4 sizes are supported.",
+  },
 };
